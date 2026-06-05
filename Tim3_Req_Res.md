@@ -485,45 +485,44 @@
 }
 ```
 
-### Format Response Game Generate
+### Format Request Evaluasi Essay
 ```json
 {
-    "nama": "Quest: Persamaan Linear",
-    "deskripsi": "Game edukasi interaktif tentang Persamaan Linear — level Low",
-    "status": "ready",
-    "html_string": "<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        #game-container { border: 2px solid #ccc; padding: 20px; border-radius: 8px; max-width: 400px; margin: auto; background-color: #f9f9f9; }
-        .btn { padding: 10px 20px; margin: 5px; cursor: pointer; border-radius: 4px; border: 1px solid #007bff; background-color: #007bff; color: white; }
-        .btn:hover { background-color: #0056b3; }
-        #result { margin-top: 15px; font-weight: bold; }
-    </style>
-</head>
-<body>
-    <div id="game-container">
-        <h2>Quest: Persamaan Linear</h2>
-        <p>Selesaikan persamaan berikut:</p>
-        <p id="question"><strong>2x + 5 = 15</strong></p>
-        <p>Berapakah nilai x?</p>
-        <button class="btn" onclick="checkAnswer(4)">x = 4</button>
-        <button class="btn" onclick="checkAnswer(5)">x = 5</button>
-        <button class="btn" onclick="checkAnswer(10)">x = 10</button>
-        <p id="result"></p>
-    </div>
-    <script>
-        function checkAnswer(ans) {
-            const res = document.getElementById('result');
-            if(ans === 5) {
-                res.innerHTML = '<span style="color:green">Jawaban Benar! Anda berhasil menyelesaikan quest.</span>';
-            } else {
-                res.innerHTML = '<span style="color:red">Jawaban Salah. Silakan coba lagi.</span>';
-            }
-        }
-    </script>
-</body>
-</html>"
+  {
+    "soal": "Berikan satu contoh pola sederhana yang dapat ditulis dalam bentuk pangkat.",
+    "rubrik": "Skor tinggi jika contoh relevan dan menunjukkan perkalian berulang.",
+    "stimulus": "Bilangan berpangkat sering dipakai dalam pola.",
+    "image_path": null, // perlu gak?
+    "penjelasan": "Contoh: dua pilihan di setiap tahap selama 3 tahap dapat ditulis sebagai 2^3."
+  },
+  {
+    "soal": "Jelaskan arti bentuk 4^3 dan hitung nilainya.",
+    "rubrik": "Skor tinggi jika siswa menjelaskan basis, pangkat, perkalian berulang, dan hasil 64.",
+    "stimulus": "Bilangan berpangkat merupakan cara ringkas menulis perkalian berulang.",
+    "image_path": null,
+    "penjelasan": "4^3 berarti 4 x 4 x 4 = 64."
+  },
+  {
+    "soal": "Jelaskan arti bentuk 4^3 dan hitung nilainya.",
+    "rubrik": "Skor tinggi jika siswa menjelaskan basis, pangkat, perkalian berulang, dan hasil 64.",
+    "stimulus": "Bilangan berpangkat merupakan cara ringkas menulis perkalian berulang.",
+    "image_path": null,
+    "penjelasan": "4^3 berarti 4 x 4 x 4 = 64."
+  },
+  {
+    "soal": "Jelaskan arti bentuk 4^3 dan hitung nilainya.",
+    "rubrik": "Skor tinggi jika siswa menjelaskan basis, pangkat, perkalian berulang, dan hasil 64.",
+    "stimulus": "Bilangan berpangkat merupakan cara ringkas menulis perkalian berulang.",
+    "image_path": null,
+    "penjelasan": "4^3 berarti 4 x 4 x 4 = 64."
+  },
+  {
+    "soal": "Jelaskan arti bentuk 4^3 dan hitung nilainya.",
+    "rubrik": "Skor tinggi jika siswa menjelaskan basis, pangkat, perkalian berulang, dan hasil 64.",
+    "stimulus": "Bilangan berpangkat merupakan cara ringkas menulis perkalian berulang.",
+    "image_path": null,
+    "penjelasan": "4^3 berarti 4 x 4 x 4 = 64."
+  },
 }
+
 ```
