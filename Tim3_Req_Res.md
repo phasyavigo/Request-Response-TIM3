@@ -489,6 +489,7 @@
 ```json
 {
   {
+    "jawaban_siswa": "string",
     "soal": "Berikan satu contoh pola sederhana yang dapat ditulis dalam bentuk pangkat.",
     "rubrik": "Skor tinggi jika contoh relevan dan menunjukkan perkalian berulang.",
     "stimulus": "Bilangan berpangkat sering dipakai dalam pola.",
@@ -496,6 +497,7 @@
     "penjelasan": "Contoh: dua pilihan di setiap tahap selama 3 tahap dapat ditulis sebagai 2^3."
   },
   {
+    "jawaban_siswa": "string",
     "soal": "Jelaskan arti bentuk 4^3 dan hitung nilainya.",
     "rubrik": "Skor tinggi jika siswa menjelaskan basis, pangkat, perkalian berulang, dan hasil 64.",
     "stimulus": "Bilangan berpangkat merupakan cara ringkas menulis perkalian berulang.",
@@ -503,6 +505,7 @@
     "penjelasan": "4^3 berarti 4 x 4 x 4 = 64."
   },
   {
+    "jawaban_siswa": "string",
     "soal": "Jelaskan arti bentuk 4^3 dan hitung nilainya.",
     "rubrik": "Skor tinggi jika siswa menjelaskan basis, pangkat, perkalian berulang, dan hasil 64.",
     "stimulus": "Bilangan berpangkat merupakan cara ringkas menulis perkalian berulang.",
@@ -510,6 +513,7 @@
     "penjelasan": "4^3 berarti 4 x 4 x 4 = 64."
   },
   {
+    "jawaban_siswa": "string",
     "soal": "Jelaskan arti bentuk 4^3 dan hitung nilainya.",
     "rubrik": "Skor tinggi jika siswa menjelaskan basis, pangkat, perkalian berulang, dan hasil 64.",
     "stimulus": "Bilangan berpangkat merupakan cara ringkas menulis perkalian berulang.",
@@ -517,6 +521,7 @@
     "penjelasan": "4^3 berarti 4 x 4 x 4 = 64."
   },
   {
+    "jawaban_siswa": "string",
     "soal": "Jelaskan arti bentuk 4^3 dan hitung nilainya.",
     "rubrik": "Skor tinggi jika siswa menjelaskan basis, pangkat, perkalian berulang, dan hasil 64.",
     "stimulus": "Bilangan berpangkat merupakan cara ringkas menulis perkalian berulang.",
