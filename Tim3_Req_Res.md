@@ -529,5 +529,21 @@
     "penjelasan": "4^3 berarti 4 x 4 x 4 = 64."
   },
 }
+```
+### Format Request Insight RAG (katanya token dibatas 256)
+```json
+{
+  "nama": "Nama Siswa",
+  "streak": 3,
+  "total_topik": 2,
+  "total_poin_kuiz": 85,
+  "total_durasi_menit": 45,
+}
+```
 
+### Format Response Insight RAG
+```json
+{
+  "insight_text": "string"
+}
 ```
