@@ -8,7 +8,7 @@
 - `flashcard`: 3x [`lots`, `mots`, `hots`]
 - `mindmap`: 1x
 - `pretest`: 1x
-- `rekomendasi`: tbd
+- `rekomendasi`: 1x
 ```json
 {
   "mapel_id": "string",
