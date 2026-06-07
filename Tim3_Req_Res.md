@@ -617,6 +617,11 @@
       "detail": "Membuka Aplikasi / Window Lain",
       "terjadi_at": "2026-06-05T19:17:41.787000+07:00"
     }
+  ],
+  "aktivitas_ids": [
+    "799e2134-8206-40df-9d31-665d75f730be",
+    "0f9eec13-deba-4b4f-aafa-bf37e0c3683c",
+    "ddc9aa9f-6862-4c80-bd23-680c5da2e6a4"
   ]
 }
 ```
